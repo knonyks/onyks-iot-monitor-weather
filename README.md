@@ -1,2 +1,2 @@
-# OnyxWeatherStat
+# Weather station
 Weather station which measures CO2 level, temperature, windspeed, humidity, rain etc. The collected data is sent to the onyx server, and than shown on the official web-page. This project uses ESP32 controller.  
