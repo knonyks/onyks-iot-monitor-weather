@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '53048_0810'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "53048-0810" (!) = "", "530480810", "Other", "", "", "8CKT R/A WAFER ASSY ROHS COMPLIANT: YES", "https://www.molex.com/pdm_docs/sd/530480810_sd.pdf", "3.7 mm"
+END_PART
+
+END.

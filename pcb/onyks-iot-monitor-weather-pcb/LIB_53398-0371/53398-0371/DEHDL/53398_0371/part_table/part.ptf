@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '53398_0371'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Molex", "53398-0371" (!) = "", "53398-0371", "Other", "", "", "3 way SMT straight header Molex PICOBLADE Series, Series Number 53398, 1.25mm Pitch 3 Way 1 Row Shrouded Straight PCB Header, Surface Mount", "http://www.molex.com/webdocs/datasheets/pdf/en-us//0533980371_PCB_HEADERS.pdf"
+END_PART
+
+END.
