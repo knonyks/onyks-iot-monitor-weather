@@ -2842,6 +2842,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 45.72) (xy 265.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a2fc66-ace1-4922-9f30-4d73863e6c69")
+	)
+	(wire
+		(pts
 			(xy 245.11 27.94) (xy 245.11 40.64)
 		)
 		(stroke
@@ -4204,6 +4214,17 @@
 		)
 		(uuid "089c1d5f-adb9-443d-98dc-6a493f0da637")
 	)
+	(label "IO0"
+		(at 265.43 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1017f56b-f418-465d-abac-5bdb19507892")
+	)
 	(label "PMS_TXD"
 		(at 144.78 91.44 0)
 		(fields_autoplaced yes)
@@ -4622,6 +4643,17 @@
 		)
 		(uuid "d27d8764-735d-4ee2-bfdd-4965c7e40a4c")
 	)
+	(label "3V3"
+		(at 187.96 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df1a8bfc-7a1a-4f78-9517-d4b10c88e311")
+	)
 	(label "BMP_CSB"
 		(at 129.54 163.83 0)
 		(fields_autoplaced yes)
@@ -4643,6 +4675,17 @@
 			(justify left bottom)
 		)
 		(uuid "eb05e5bb-af4a-4acc-ba7f-4ee2f01e6e10")
+	)
+	(label "3V3"
+		(at 187.96 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4a39bf3-0b0e-4ac5-ac2e-7b81abba51c2")
 	)
 	(label "BMP_SDO"
 		(at 129.54 161.29 0)
@@ -5869,72 +5912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 187.96 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a3a9064-d9a4-4a03-849b-7a8e1d302828")
-		(property "Reference" "#PWR05"
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 187.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 187.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1af1aee3-3f91-4c7b-ab22-090492445ace")
-		)
-		(instances
-			(project "onyks-iot-monitor-weather-pcb"
-				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 208.28 58.42 0)
 		(unit 1)
@@ -6585,72 +6562,6 @@
 			(project "onyks-iot-monitor-weather-pcb"
 				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 187.96 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "898d6790-dc1d-43b8-a17c-f0c66c94fd49")
-		(property "Reference" "#PWR03"
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 187.96 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 187.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "063912c0-3a19-431e-827c-d9f10df62931")
-		)
-		(instances
-			(project ""
-				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
