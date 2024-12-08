@@ -1126,6 +1126,702 @@
 			)
 		)
 	)
+	(footprint "1bmoje:PTS636SK25FSMTRLFS"
+		(layer "F.Cu")
+		(uuid "28868109-e18a-4475-96fd-60d558c2096d")
+		(at 199.2 89.7)
+		(descr "PTS636 SK25F SMTR LFS-1")
+		(tags "Switch")
+		(property "Reference" "S1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "f3b00505-0ed9-46cb-ab84-fc32aafebdb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "PTS636_SK25F_SMTR_LFS"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "42c3c7c4-3473-451a-b72b-ab1dfb091aea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "1bmoje:PTS636SK25FSMTRLFS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caa6c58a-d009-475e-a4ab-fa1f47636bff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82f50d32-a135-4bd8-adba-c95821733dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, F leads, No ground pin, Red Actuator"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17fa3ff6-16c1-4449-88ee-8b89fe2e2b81")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "2.7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01e42628-0986-4a68-808c-784a0002d904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS636SK25FSMTRL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fff1409-07ce-47a1-987d-5341b1a0eac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SK25F-SMTR-LFS?qs=vLWxofP3U2zO9PvdsA2GhQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0384488-89ef-468b-b544-bb6053aef1dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a0da5b4-78a8-421f-94d6-c55e5f8ff748")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS636 SK25F SMTR LFS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "427f44ba-2d97-4f5f-a737-e2e129a83090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d5ab125d-e908-4e1a-af77-a1c7a4f03b7a")
+		(sheetname "Root")
+		(sheetfile "onyks-iot-monitor-weather-pcb.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.7 -1.5)
+			(end -3.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99a942f7-3a3c-42cd-89f8-c9f607797ac8")
+		)
+		(fp_line
+			(start -3.6 -1.5)
+			(end -3.6 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ff0e4089-6e42-491b-b8d9-1741c7345524")
+		)
+		(fp_line
+			(start -3.05 -1.85)
+			(end 3.05 -1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75e7afbc-ccce-43eb-980c-f586de727e69")
+		)
+		(fp_line
+			(start -3.05 -0.9)
+			(end -3.05 -1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6360eef7-5e20-4ba0-a43b-06ede41f6d9b")
+		)
+		(fp_line
+			(start -3.05 0.9)
+			(end -3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5f00a45d-daed-40a4-b14c-d0a8fab20efc")
+		)
+		(fp_line
+			(start -3.05 1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "764f2e66-327e-49d1-ab54-0abff8704630")
+		)
+		(fp_line
+			(start 3.05 -1.85)
+			(end 3.05 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df1b3be2-17d4-4148-a228-b85f10153e22")
+		)
+		(fp_line
+			(start 3.05 1.85)
+			(end 3.05 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a695794a-a311-4a65-853a-6889dadd4c5e")
+		)
+		(fp_arc
+			(start -3.7 -1.5)
+			(mid -3.65 -1.55)
+			(end -3.6 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3cef3cb5-db13-4f0d-ab90-9a3405157b32")
+		)
+		(fp_arc
+			(start -3.6 -1.5)
+			(mid -3.65 -1.45)
+			(end -3.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8a0d2087-5294-43bb-ad03-16e97a0ee629")
+		)
+		(fp_line
+			(start -5.5 -2.85)
+			(end 5.5 -2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "047c83ce-0b29-4025-bf35-3fda9b75761d")
+		)
+		(fp_line
+			(start -5.5 2.85)
+			(end -5.5 -2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3d974c84-e026-4a72-be4d-9698109d8fe3")
+		)
+		(fp_line
+			(start -3.05 -1.85)
+			(end 3.05 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "01fed9b9-a891-4b6a-9e74-f8564a36d5a3")
+		)
+		(fp_line
+			(start -3.05 1.85)
+			(end -3.05 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "d986b8b8-e5cb-497e-8a90-7bca8f2ead6e")
+		)
+		(fp_line
+			(start 3.05 -1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "23e1bd63-16d5-45fc-b43e-846d3339bc5e")
+		)
+		(fp_line
+			(start 3.05 1.85)
+			(end -3.05 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c8cb5f53-5226-44b7-8610-cc76966f0897")
+		)
+		(fp_line
+			(start 5.5 -2.85)
+			(end 5.5 2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "14aa4648-7d71-4fe6-8ddd-9084600e40ba")
+		)
+		(fp_line
+			(start 5.5 2.85)
+			(end -5.5 2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "95ee4c1d-9901-477b-aaee-026a2283d882")
+		)
+		(pad "1" smd rect
+			(at -3.3 0 90)
+			(size 1 2.4)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "COM")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "09a78b21-ed65-4c39-be06-3264193f74d4")
+		)
+		(pad "2" smd rect
+			(at 3.3 0 90)
+			(size 1 2.4)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 37 "/IO0")
+			(pinfunction "NO")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "8a671ffc-d070-4ed7-a207-8fa8187c3219")
+		)
+		(model "${KIPRJMOD}/LIB_PTS636_SK25F_SMTR_LFS/PTS636_SK25F_SMTR_LFS/3D/PTS636_SK25F_SMTR_LFS.stp"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "1bmoje:PTS636SK25FSMTRLFS"
+		(layer "F.Cu")
+		(uuid "297699b5-c3dc-4827-b331-0665ee19d903")
+		(at 199.2 94.5)
+		(descr "PTS636 SK25F SMTR LFS-1")
+		(tags "Switch")
+		(property "Reference" "S2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "9fd276cb-ce88-41a1-beb0-ffeaa2334859")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "PTS636_SK25F_SMTR_LFS"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d39b276d-a623-4112-b53d-2011ec040abe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "1bmoje:PTS636SK25FSMTRLFS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a436a4ba-b873-4ab3-976f-ee66bb006614")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7abe08e7-389e-4bef-8967-a79661e41e24")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, F leads, No ground pin, Red Actuator"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "376c5670-c314-45e1-aeb5-84baaa6e192c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "2.7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "333f7baa-ba59-423d-ac08-7d5642e24de9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS636SK25FSMTRL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41816564-a1a8-46aa-b0ba-f4bda7ad44c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SK25F-SMTR-LFS?qs=vLWxofP3U2zO9PvdsA2GhQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd4a6de5-05ac-4a4b-81a1-4d12d66ac290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "841fd30a-f1c5-43c7-a833-3be4f219d9a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS636 SK25F SMTR LFS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f48582e1-b5fb-4bb5-8fd4-ede8d32010c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b6305e6e-d555-478d-ab6f-4ae183535d5b")
+		(sheetname "Root")
+		(sheetfile "onyks-iot-monitor-weather-pcb.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.7 -1.5)
+			(end -3.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "97db523d-339d-4d70-8869-f64818740ce7")
+		)
+		(fp_line
+			(start -3.6 -1.5)
+			(end -3.6 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3cab899c-54b7-4622-9de3-d211793c9fa6")
+		)
+		(fp_line
+			(start -3.05 -1.85)
+			(end 3.05 -1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf1428d0-0530-46aa-9736-94ecc9b25df4")
+		)
+		(fp_line
+			(start -3.05 -0.9)
+			(end -3.05 -1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb47aaef-e676-4dad-9d9e-7d9832295cbe")
+		)
+		(fp_line
+			(start -3.05 0.9)
+			(end -3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "25fd5070-c128-477c-8089-9bcb9d9c5dea")
+		)
+		(fp_line
+			(start -3.05 1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a8a7d24-4807-4b98-966c-55e2529cfb13")
+		)
+		(fp_line
+			(start 3.05 -1.85)
+			(end 3.05 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f046c6a7-d429-42a0-83ef-3a10dc303c82")
+		)
+		(fp_line
+			(start 3.05 1.85)
+			(end 3.05 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dce9287c-224b-479a-9dfc-b38ce72c48bc")
+		)
+		(fp_arc
+			(start -3.7 -1.5)
+			(mid -3.65 -1.55)
+			(end -3.6 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "64e96619-aa6f-44f5-947a-119d6e4440f2")
+		)
+		(fp_arc
+			(start -3.6 -1.5)
+			(mid -3.65 -1.45)
+			(end -3.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2099aaba-21c8-49c2-b63d-9a1467fa564b")
+		)
+		(fp_line
+			(start -5.5 -2.85)
+			(end 5.5 -2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "bd92f5bc-13d6-4bb5-9593-3178311f8dc7")
+		)
+		(fp_line
+			(start -5.5 2.85)
+			(end -5.5 -2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1dabd6bc-7f99-4a3e-87ae-552a9eb1731c")
+		)
+		(fp_line
+			(start -3.05 -1.85)
+			(end 3.05 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "168c6d11-3761-48a6-af9e-132d56121e87")
+		)
+		(fp_line
+			(start -3.05 1.85)
+			(end -3.05 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e9f37d65-dadd-4879-a79b-3b379fe105c8")
+		)
+		(fp_line
+			(start 3.05 -1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "02aab13f-366b-436e-bd01-c7f8b6596b64")
+		)
+		(fp_line
+			(start 3.05 1.85)
+			(end -3.05 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "89056911-e54c-41aa-8c2c-317d2b3fb708")
+		)
+		(fp_line
+			(start 5.5 -2.85)
+			(end 5.5 2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1cc4dd05-a626-4347-9791-44b0a22bb9fb")
+		)
+		(fp_line
+			(start 5.5 2.85)
+			(end -5.5 2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "11f76b39-15d0-4e71-aa59-ff249bcd9e27")
+		)
+		(pad "1" smd rect
+			(at -3.3 0 90)
+			(size 1 2.4)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "COM")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "17ef17f9-4358-43a1-aacb-34bdab392c01")
+		)
+		(pad "2" smd rect
+			(at 3.3 0 90)
+			(size 1 2.4)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 12 "/EN")
+			(pinfunction "NO")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "68fb1277-6610-45f4-80cf-a18a92ce53c3")
+		)
+		(model "${KIPRJMOD}/LIB_PTS636_SK25F_SMTR_LFS/PTS636_SK25F_SMTR_LFS/3D/PTS636_SK25F_SMTR_LFS.stp"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "372c2d5f-aae4-449e-a6fd-4b891ca60e9c")
@@ -2362,7 +3058,7 @@
 		(property "Reference" "J3"
 			(at -4.375 -1.5 0)
 			(layer "F.SilkS")
-			(uuid "d7acb179-8403-4128-98eb-37cabd689ee9")
+			(uuid "4ebff0e4-ba97-4969-affa-71ffb32a29e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +3070,7 @@
 			(at -4.375 -1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "807329a5-726c-44c5-8b48-bb847890978f")
+			(uuid "c843c136-f4f2-4865-903f-fecc5411bbe6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +3082,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54162faf-5831-411a-90b7-b4c289902238")
+			(uuid "f58465f7-15bc-40aa-a4ef-301dbc55a3bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +3094,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d361590-4381-4721-8aab-475c9028538c")
+			(uuid "353acbd3-8edc-40fd-a053-54cf7615f310")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +3106,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d007b9f4-6e9d-4702-aa5f-0e4c3a9eabac")
+			(uuid "375109b8-7275-4742-bd75-d7d23a7e28f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +3119,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dca3c5d8-a528-4374-b92a-ffacdf3deeca")
+			(uuid "d250627c-5b5a-4b41-b17a-f2a988e0cdd1")
 			(effects
 				(font
 					(size 1 1)
@@ -2436,7 +3132,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bfafb0f0-c323-4420-bc0b-0ae4a0e71663")
+			(uuid "a92cbb6b-242a-4855-9c60-5df2e7e5a1c9")
 			(effects
 				(font
 					(size 1 1)
@@ -2449,7 +3145,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69cf0f3c-6c3f-42e9-a0cf-5ff3941bff2d")
+			(uuid "ed5796f1-9148-4ab7-a506-4c0f26b4b597")
 			(effects
 				(font
 					(size 1 1)
@@ -2462,7 +3158,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cadc3f11-9be6-434e-81f9-393e89ce34d2")
+			(uuid "a232d940-cbf9-43f3-b427-ef5933cd9057")
 			(effects
 				(font
 					(size 1 1)
@@ -2475,7 +3171,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb05a2f2-6491-475e-8320-fc42fad2e3ed")
+			(uuid "bc1dbc77-8f95-4b44-8de1-3197d8807ed0")
 			(effects
 				(font
 					(size 1 1)
@@ -2495,7 +3191,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0537e7c8-d596-4891-b97f-a8c7ccb4b9e0")
+			(uuid "c6ac124e-fc99-4459-974b-f2cda5fed0fa")
 		)
 		(fp_line
 			(start -10.25 1.05)
@@ -2505,7 +3201,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "88ca5f28-4a16-46b2-9448-80ac289ce00e")
+			(uuid "b2ca49a0-ba77-4e32-b62a-5fdf87fe9c5f")
 		)
 		(fp_line
 			(start 0 1.4)
@@ -2515,7 +3211,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2642d9fd-0566-4be4-97c6-89332aec0161")
+			(uuid "6e78e67b-4c61-4a08-9f4c-e745a215966e")
 		)
 		(fp_line
 			(start 0.1 1.4)
@@ -2525,7 +3221,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "83a73b78-f566-49d8-8b2f-a6af87bce6e2")
+			(uuid "8f4e71cc-35ae-45c3-87aa-b97e6ce1211e")
 		)
 		(fp_line
 			(start 1.5 -4.45)
@@ -2535,7 +3231,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5c63218b-3d32-4e17-adb6-381a13999e09")
+			(uuid "8929c36c-0dfa-4331-9f2a-aaba4392a787")
 		)
 		(fp_line
 			(start 1.5 1.05)
@@ -2545,7 +3241,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "da7289eb-3328-4918-b270-3914237599f4")
+			(uuid "11d0f36b-abe1-4612-ad4c-6ff27f43f25d")
 		)
 		(fp_arc
 			(start 0 1.4)
@@ -2556,7 +3252,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "91fb6eb1-2658-412a-af2e-bd568cd7bba2")
+			(uuid "192ed9eb-9a27-4f61-945e-a52f6101af24")
 		)
 		(fp_arc
 			(start 0.1 1.4)
@@ -2567,7 +3263,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "741941b5-8b8f-407f-8f5f-da7909eb0aa5")
+			(uuid "d5b4aede-d185-4645-9247-dea43fa114a3")
 		)
 		(fp_line
 			(start -11.25 -5.45)
@@ -2577,7 +3273,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "15ec32a5-ddbb-4b1f-ad15-208df1a60336")
+			(uuid "39f75d14-6099-40d9-be71-953eede1af4e")
 		)
 		(fp_line
 			(start -11.25 2.45)
@@ -2587,7 +3283,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "18ca2907-f32e-483b-9452-193f969ec7ab")
+			(uuid "59d2abd2-fcdf-4ad2-a1f7-0414b94a8d41")
 		)
 		(fp_line
 			(start -10.25 -4.45)
@@ -2597,7 +3293,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b52dea22-30e1-4795-82fb-7e486e7a8444")
+			(uuid "d433b04b-7ade-465c-b15d-9c905b350beb")
 		)
 		(fp_line
 			(start -10.25 1.05)
@@ -2607,7 +3303,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "5b93a2bd-b7a1-4b8d-adc1-4aab25b83664")
+			(uuid "1a1df856-59be-49aa-acb8-1abec6f57e86")
 		)
 		(fp_line
 			(start 1.5 -4.45)
@@ -2617,7 +3313,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b8739b23-e58d-4cf1-bf3d-d9fdf5975455")
+			(uuid "7a7b92c2-b320-4a44-9ff5-315d458ebc24")
 		)
 		(fp_line
 			(start 1.5 1.05)
@@ -2627,7 +3323,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "1cc6d259-f59c-4537-86eb-6049daa8ae61")
+			(uuid "1c562b2c-8935-4928-a5dd-9f6a6dde41a6")
 		)
 		(fp_line
 			(start 2.5 -5.45)
@@ -2637,7 +3333,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "3178410d-fedf-4d74-930c-6519194b062b")
+			(uuid "1f25b370-0144-469c-84e1-565e51be036c")
 		)
 		(fp_line
 			(start 2.5 2.45)
@@ -2647,7 +3343,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "842b2e35-9263-4a62-8cd7-264daad4da34")
+			(uuid "432940a9-c48d-436b-9380-5259b84505a3")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -2658,7 +3354,7 @@
 			(net 6 "VCC")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d8c85f50-0f84-4ef9-a44c-c58c70530b5b")
+			(uuid "fdbb30e9-f77d-4f75-99df-cc0f8e0fa7b7")
 		)
 		(pad "2" thru_hole circle
 			(at -1.25 0 90)
@@ -2669,7 +3365,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "40f4de3c-ed57-454a-87a4-a23ce5840b06")
+			(uuid "d9bee1ce-01a0-4b40-bba2-d2c955a7c572")
 		)
 		(pad "3" thru_hole circle
 			(at -2.5 0 90)
@@ -2680,7 +3376,7 @@
 			(net 21 "/PMS_SET")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "d4be94bd-cf93-4486-947f-8764a091f8ce")
+			(uuid "e68a1614-e142-4b1c-b02d-19053f083ffe")
 		)
 		(pad "4" thru_hole circle
 			(at -3.75 0 90)
@@ -2691,7 +3387,7 @@
 			(net 22 "/PMS_RXD")
 			(pinfunction "4")
 			(pintype "passive")
-			(uuid "edffe187-4c8c-43cf-9d9f-308edb3187b3")
+			(uuid "4fef92c7-cc00-4955-bf4e-e42e68f71df5")
 		)
 		(pad "5" thru_hole circle
 			(at -5 0 90)
@@ -2702,7 +3398,7 @@
 			(net 19 "/PMS_TXD")
 			(pinfunction "5")
 			(pintype "passive")
-			(uuid "665636d3-a9f5-42bc-90a1-f8603478818d")
+			(uuid "865862f5-1629-47d7-9a76-500ef160dfe1")
 		)
 		(pad "6" thru_hole circle
 			(at -6.25 0 90)
@@ -2713,7 +3409,7 @@
 			(net 28 "/PMS_RESET")
 			(pinfunction "6")
 			(pintype "passive")
-			(uuid "c3a2ddac-b4a4-4523-98a1-9b050ec18eb5")
+			(uuid "a0efd7d6-49c0-4110-afb7-0523f4c3da23")
 		)
 		(pad "7" thru_hole circle
 			(at -7.5 0 90)
@@ -2724,7 +3420,7 @@
 			(net 25 "/PMS_PWM")
 			(pinfunction "7")
 			(pintype "passive")
-			(uuid "3f890eb4-0cf0-4003-962c-2564935177c1")
+			(uuid "a4c6ce6a-0f87-4474-9134-0a34544f22df")
 		)
 		(pad "8" thru_hole circle
 			(at -8.75 0 90)
@@ -2735,7 +3431,7 @@
 			(net 29 "/PMS_SELECT")
 			(pinfunction "8")
 			(pintype "passive")
-			(uuid "e5c990e4-8f8e-4ceb-80d6-87045e5d907d")
+			(uuid "fe871976-026f-4f6e-9799-960865fef2ed")
 		)
 		(model "${KIPRJMOD}/LIB_53048-0810/53048-0810/3D/53048-0810.stp"
 			(offset
@@ -3015,346 +3711,6 @@
 			)
 		)
 	)
-	(footprint "1bmoje:18259106"
-		(layer "F.Cu")
-		(uuid "54d9bc7d-ebca-453e-8e3b-85592728736d")
-		(at 189 72.5)
-		(descr "1825910-6-2")
-		(tags "Switch")
-		(property "Reference" "S1"
-			(at 3.25 2.25 0)
-			(layer "F.SilkS")
-			(uuid "9ec22534-c923-4c75-9528-728ed3d2681e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 3.25 2.25 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "619d7a6c-4eb6-4acb-b969-3093043ddd57")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Footprint" "18259106"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1cc1a7cc-8427-442b-b3ce-bbffaa577a67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&PartCntxt=1825910-6&DocFormat=pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15ae3912-1fd4-42fa-858c-a5a2c6243b88")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Body Features: Product Orientation Vertical | Case Material Nylon | Actuator Force 5.64 OZ | Cover Material PET Film | Actuator Force 160 G | Actuator Color Black | Actuator Material PBT | Actuator Profile Extended | Case Color Black | Configuration Features: Operating Function NO | Ganged With | Support Bracket Without | Switch Feedback Type Tactile | Configuration (Pole-Throw) Single Pole - Single Throw | Number of Actuators Single | ESD Grounding Terminal Without | Contact Features: Contact Base Material"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f47b16d-fc41-40ae-ba91-be7802acce6f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Height" "5.3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "334a731d-6898-4aa4-ac56-822b673abaac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d1084e7f-5e75-4cc7-8b0d-cb18fd0e8f25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "538ea638-e153-453e-b8d5-3948350d085b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bed9be70-20e5-4840-8913-73943723ce59")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1825910-6"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e29a9451-d2ba-466d-b6a9-20482ddf1d88")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/5bf9fae6-a60e-4781-bdd6-9d8b8a103c1b")
-		(sheetname "Root")
-		(sheetfile "onyks-iot-monitor-weather-pcb.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
-		(fp_line
-			(start 0.25 1.25)
-			(end 0.25 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b103d19a-83a7-48c3-ae96-aa6217ab4ed2")
-		)
-		(fp_line
-			(start 0.25 1.25)
-			(end 0.255 3.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3cfdff62-5e93-49f3-9dd8-ee2842b04491")
-		)
-		(fp_line
-			(start 0.255 3.25)
-			(end 0.255 3.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "751e3a98-50a4-47b6-ab93-f1c4d85deac5")
-		)
-		(fp_line
-			(start 1.25 -0.75)
-			(end 5.25 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4736f98d-6485-4373-b922-ffb5de2074a5")
-		)
-		(fp_line
-			(start 1.25 5.25)
-			(end 5.25 5.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2ecba9c7-9579-4590-bec7-4f2716dd4601")
-		)
-		(fp_line
-			(start 6.245 1.25)
-			(end 6.245 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fb68c386-9bfc-4b3d-8cc3-eefec512e522")
-		)
-		(fp_line
-			(start 6.245 1.25)
-			(end 6.25 3.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dff5146b-0315-49d7-ac0c-a5e69e3dd0df")
-		)
-		(fp_line
-			(start -1.77 -1.77)
-			(end 8.27 -1.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "31aba810-28b6-43c9-804d-8f64b3d7fe3a")
-		)
-		(fp_line
-			(start -1.77 6.27)
-			(end -1.77 -1.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "fb1c409c-bea1-4da2-8398-edbf663c29a9")
-		)
-		(fp_line
-			(start 0.255 -0.745)
-			(end 6.245 -0.745)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "a62dbd4b-8b77-4e64-91de-1c3015609cf9")
-		)
-		(fp_line
-			(start 0.255 5.245)
-			(end 0.255 -0.745)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "9facd15e-2e78-4847-8739-052600e5de7a")
-		)
-		(fp_line
-			(start 6.245 -0.745)
-			(end 6.245 5.245)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0b92d685-7e9e-4057-9183-1fbc7749f17c")
-		)
-		(fp_line
-			(start 6.245 5.245)
-			(end 0.255 5.245)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "8610d030-d6ff-4cea-ac6e-9de1c0e6b616")
-		)
-		(fp_line
-			(start 8.27 -1.77)
-			(end 8.27 6.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "36935634-fe53-4c67-9e1a-64c40ee4dc80")
-		)
-		(fp_line
-			(start 8.27 6.27)
-			(end -1.77 6.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "449d69c4-9982-4253-9fee-bf155def6c0c")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 1.54 1.54)
-			(drill 0.99)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "COM_1")
-			(pintype "passive")
-			(uuid "f567199a-c20a-4ea8-9308-51e321b184f5")
-		)
-		(pad "2" thru_hole circle
-			(at 6.5 0 90)
-			(size 1.54 1.54)
-			(drill 0.99)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 37 "/IO0")
-			(pinfunction "COM_2")
-			(pintype "passive")
-			(uuid "1e9ef0a6-1661-4158-9fe9-662b936a1b4f")
-		)
-		(pad "3" thru_hole circle
-			(at 0 4.5 90)
-			(size 1.54 1.54)
-			(drill 0.99)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "NO_1")
-			(pintype "passive")
-			(uuid "70018cb8-ca39-47ca-8516-ec9ff85d8c40")
-		)
-		(pad "4" thru_hole circle
-			(at 6.5 4.5 90)
-			(size 1.54 1.54)
-			(drill 0.99)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 37 "/IO0")
-			(pinfunction "NO_2")
-			(pintype "passive")
-			(uuid "a26ac4cc-5385-4c65-95e1-8fc779bbf776")
-		)
-		(model "${KIPRJMOD}/1825910-6/3D/1825910-6.stp"
-			(offset
-				(xyz 3.3 -2 5.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 90)
-			)
-		)
-	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "55301424-daa7-43ba-a115-03ec02e1f60f")
@@ -3619,346 +3975,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "1bmoje:18259106"
-		(layer "F.Cu")
-		(uuid "6db6cf74-f05f-4ebf-a9a1-dc83209ad1aa")
-		(at 188.75 62.25)
-		(descr "1825910-6-2")
-		(tags "Switch")
-		(property "Reference" "S2"
-			(at 3.25 2.25 0)
-			(layer "F.SilkS")
-			(uuid "2f977e7d-e24e-4830-aa90-ac3613c1d65e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Value" "ENABLE"
-			(at 3.25 2.25 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "083e8017-a626-4858-8a06-15fa2d634415")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Footprint" "18259106"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5dc77191-97fd-4f17-b9cc-6a0c88bccd78")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&PartCntxt=1825910-6&DocFormat=pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fed7e83f-33bf-471b-ac96-8e7a7ebcf81b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Body Features: Product Orientation Vertical | Case Material Nylon | Actuator Force 5.64 OZ | Cover Material PET Film | Actuator Force 160 G | Actuator Color Black | Actuator Material PBT | Actuator Profile Extended | Case Color Black | Configuration Features: Operating Function NO | Ganged With | Support Bracket Without | Switch Feedback Type Tactile | Configuration (Pole-Throw) Single Pole - Single Throw | Number of Actuators Single | ESD Grounding Terminal Without | Contact Features: Contact Base Material"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d4698de-d31a-4731-b340-befc20781453")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Height" "5.3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ea9ffa57-f077-43a3-b2d7-56e8ffa32cd2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "66e06634-cbf6-4d5c-b5cf-12db52df88f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8702e328-c8b6-4af2-910b-e7259869185f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e4442066-c84d-4d41-ac23-f3b7af2d72c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1825910-6"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a14559e0-8c2e-49d5-8c05-6ad597ca8cca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/386fe9b6-4e36-4222-b4a6-1429d0d018a5")
-		(sheetname "Root")
-		(sheetfile "onyks-iot-monitor-weather-pcb.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
-		(fp_line
-			(start 0.25 1.25)
-			(end 0.25 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e2edbbb7-8e0f-4810-82c4-e062599ccf31")
-		)
-		(fp_line
-			(start 0.25 1.25)
-			(end 0.255 3.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e352ddfa-2df6-40e8-b8d0-6997fa1ea7a4")
-		)
-		(fp_line
-			(start 0.255 3.25)
-			(end 0.255 3.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "82fde20b-bb8f-450f-8ebe-8c92e9b574a7")
-		)
-		(fp_line
-			(start 1.25 -0.75)
-			(end 5.25 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cbd67910-8488-4619-9b54-4283d9fe55e4")
-		)
-		(fp_line
-			(start 1.25 5.25)
-			(end 5.25 5.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9cf441cc-bdad-469b-82a7-ce2003474975")
-		)
-		(fp_line
-			(start 6.245 1.25)
-			(end 6.245 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0dc51794-38fb-48e6-8e78-7123c47b3675")
-		)
-		(fp_line
-			(start 6.245 1.25)
-			(end 6.25 3.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "12dc493e-21de-48e4-a36a-263ee8c85a1a")
-		)
-		(fp_line
-			(start -1.77 -1.77)
-			(end 8.27 -1.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "8d625b9f-3e56-485a-8b50-50883107ca76")
-		)
-		(fp_line
-			(start -1.77 6.27)
-			(end -1.77 -1.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "b31f2c34-221a-4bef-b9a3-77809c9a63cd")
-		)
-		(fp_line
-			(start 0.255 -0.745)
-			(end 6.245 -0.745)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "f5e56b36-9996-4b96-89cc-4cf4590eefdc")
-		)
-		(fp_line
-			(start 0.255 5.245)
-			(end 0.255 -0.745)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0965aa92-81af-4147-aede-2439499246dc")
-		)
-		(fp_line
-			(start 6.245 -0.745)
-			(end 6.245 5.245)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "ebe121c4-3c7b-45b3-8f89-5cdae61d957a")
-		)
-		(fp_line
-			(start 6.245 5.245)
-			(end 0.255 5.245)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "449c5d9f-0639-4678-be98-1439e112bb91")
-		)
-		(fp_line
-			(start 8.27 -1.77)
-			(end 8.27 6.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "898bcacc-e147-4b0c-941e-8a2e31ab64b6")
-		)
-		(fp_line
-			(start 8.27 6.27)
-			(end -1.77 6.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "7199161e-a445-4f80-8551-a91e20a7d0de")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 1.54 1.54)
-			(drill 0.99)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "COM_1")
-			(pintype "passive")
-			(uuid "ba74d6d2-20b0-4273-a853-53341079aa8d")
-		)
-		(pad "2" thru_hole circle
-			(at 6.5 0 90)
-			(size 1.54 1.54)
-			(drill 0.99)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 12 "/EN")
-			(pinfunction "COM_2")
-			(pintype "passive")
-			(uuid "0ce69b97-244d-44f8-afca-ba15a51ef714")
-		)
-		(pad "3" thru_hole circle
-			(at 0 4.5 90)
-			(size 1.54 1.54)
-			(drill 0.99)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "NO_1")
-			(pintype "passive")
-			(uuid "553efd1c-4fa4-425b-bbd7-cf1d366829cb")
-		)
-		(pad "4" thru_hole circle
-			(at 6.5 4.5 90)
-			(size 1.54 1.54)
-			(drill 0.99)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 12 "/EN")
-			(pinfunction "NO_2")
-			(pintype "passive")
-			(uuid "f9b0d4e9-2fa6-46c8-b022-065872445a81")
-		)
-		(model "${KIPRJMOD}/1825910-6/3D/1825910-6.stp"
-			(offset
-				(xyz 3.3 -2 5.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 90)
 			)
 		)
 	)

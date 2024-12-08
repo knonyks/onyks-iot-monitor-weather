@@ -1,0 +1,9 @@
+Manufacturer=C & K COMPONENTS
+PartNumber=PTS636 SK25F SMTR LFS
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2019-08-31 22:37:36
+Downloaded=2024-12-08 10:21:36
+3D=Y

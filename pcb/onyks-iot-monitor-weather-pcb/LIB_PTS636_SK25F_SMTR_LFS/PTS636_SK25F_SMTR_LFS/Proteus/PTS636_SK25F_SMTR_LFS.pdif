@@ -1,0 +1,112 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PTS636_SK25F_SMTR_LFS"
+   (description "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, F leads, No ground pin, Red Actuator")
+   (family "SWI")
+   (package "PTS636SK25FSMTRLFS")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "2.7mm")
+   (attribute "Mouser Part Number" "611-PTS636SK25FSMTRL")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SK25F-SMTR-LFS?qs=vLWxofP3U2zO9PvdsA2GhQ%3D%3D")
+   (attribute "Manufacturer_Name" "C & K COMPONENTS")
+   (attribute "Manufacturer_Part_Number" "PTS636 SK25F SMTR LFS")
+   (gate
+    (symbol "PTS636_SK25F_SMTR_LFS")
+    (pin "COM" 1 PS)
+    (pin "NO" 2 PS)
+   )
+  )
+  (symbol "PTS636_SK25F_SMTR_LFS"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PTS636SK25FSMTRLFS"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.05 1.85)
+      (pt 3.05 1.85)
+      (pt 3.05 -1.85)
+      (pt -3.05 -1.85)
+      (pt -3.05 1.85))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.5 2.85)
+      (pt 5.5 2.85)
+      (pt 5.5 -2.85)
+      (pt -5.5 -2.85)
+      (pt -5.5 2.85))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.05 0.9)
+      (pt -3.05 1.85)
+      (pt 3.05 1.85)
+      (pt 3.05 0.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.05 -0.9)
+      (pt -3.05 -1.85)
+      (pt 3.05 -1.85)
+      (pt 3.05 -0.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.6 1.5)
+      (arc (pt -3.600 1.500) (pt -3.700 1.450) (pt -3.600 1.550) (start 180.0) (sweep .0))
+      (pt -3.7 1.5)
+      (arc (pt -3.700 1.500) (pt -3.700 1.450) (pt -3.600 1.550) (start 180.0) (sweep 180.0))
+      (pt -3.6 1.5))))
+   (leg 1 (pt -3.300 0.000) (padstack 0))
+   (leg 2 (pt 3.300 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 2.400 0 0 0.000))
+   )
+   (model "PTS636_SK25F_SMTR_LFS.stp"
+    (euler -90 0 0)
+    (offset 0 0 2.5)
+   )
+  )
+ )
+)
