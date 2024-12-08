@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTS636_SK25F_SMTR_LFS'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "C & K COMPONENTS", "PTS636 SK25F SMTR LFS" (!) = "", "PTS636SK25FSMTRLFS", "Other", "611-PTS636SK25FSMTRL", "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SK25F-SMTR-LFS?qs=vLWxofP3U2zO9PvdsA2GhQ%3D%3D", "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, F leads, No ground pin, Red Actuator", "", "2.7 mm"
+END_PART
+
+END.
