@@ -3594,6 +3594,12 @@
 		(uuid "41925bee-ed97-451e-98e7-b63a8437c8d7")
 	)
 	(junction
+		(at 68.58 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b472487-4407-4b1f-bc61-4046a02c823a")
+	)
+	(junction
 		(at 245.11 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3610,6 +3616,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bc13ffd-d1c9-4256-aeed-5a4c41aaec3a")
+	)
+	(junction
+		(at 68.58 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7160e3c9-45c2-4e5b-953d-59faceb44843")
 	)
 	(junction
 		(at 55.88 90.17)
@@ -3749,6 +3761,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 25.4) (xy 162.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de737ec-e2eb-4424-a1de-78f5a09c159b")
+	)
+	(wire
+		(pts
 			(xy 260.35 71.12) (xy 261.62 71.12)
 		)
 		(stroke
@@ -3766,6 +3788,16 @@
 			(type default)
 		)
 		(uuid "11606897-96ff-42ff-ae99-67fe13c4ce1f")
+	)
+	(wire
+		(pts
+			(xy 86.36 129.54) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149da112-79f5-416a-a99e-13b03e0ac4cb")
 	)
 	(wire
 		(pts
@@ -3839,6 +3871,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 124.46) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21823c3a-ee33-468a-8a91-985b773b5c4d")
+	)
+	(wire
+		(pts
+			(xy 73.66 124.46) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a7dfec-82c0-4a4a-9d0f-71a0b4084c43")
+	)
+	(wire
+		(pts
 			(xy 260.35 45.72) (xy 265.43 45.72)
 		)
 		(stroke
@@ -3876,6 +3928,16 @@
 			(type default)
 		)
 		(uuid "2aa48a81-07be-4497-b363-00cfb5624268")
+	)
+	(wire
+		(pts
+			(xy 162.56 34.29) (xy 162.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b043bdc-12f7-4cd3-b1e7-1dea1946ba8e")
 	)
 	(wire
 		(pts
@@ -3926,6 +3988,16 @@
 			(type default)
 		)
 		(uuid "334f6267-d0c3-40ab-a61e-42c0580270b5")
+	)
+	(wire
+		(pts
+			(xy 86.36 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342415be-0983-4d6e-9344-fd4289868be8")
 	)
 	(wire
 		(pts
@@ -4059,16 +4131,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 88.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "486f1d25-6c36-4c2f-a354-8b7e06363e8d")
-	)
-	(wire
-		(pts
 			(xy 260.35 91.44) (xy 262.89 91.44)
 		)
 		(stroke
@@ -4146,16 +4208,6 @@
 			(type default)
 		)
 		(uuid "4f1461ba-c252-4454-ba58-f4862842c5b2")
-	)
-	(wire
-		(pts
-			(xy 86.36 129.54) (xy 88.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50faa117-b705-451f-b18f-a569c89d3092")
 	)
 	(wire
 		(pts
@@ -4489,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 132.08) (xy 73.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8033a779-e323-4b8a-ac6b-d2d4c2d78cef")
+	)
+	(wire
+		(pts
 			(xy 260.35 101.6) (xy 262.89 101.6)
 		)
 		(stroke
@@ -4576,6 +4638,16 @@
 			(type default)
 		)
 		(uuid "8bdaa1d8-b71b-4922-baa5-5fd741cc0ae2")
+	)
+	(wire
+		(pts
+			(xy 68.58 127) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c171dfd-e1ed-4331-b408-fc8ef58230d2")
 	)
 	(wire
 		(pts
@@ -4759,6 +4831,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 118.11) (xy 68.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3589c86-8f4d-438b-8672-364b6e6aa8ad")
+	)
+	(wire
+		(pts
 			(xy 87.63 173.99) (xy 96.52 173.99)
 		)
 		(stroke
@@ -4776,6 +4858,16 @@
 			(type default)
 		)
 		(uuid "a5e15910-9ede-4790-9d79-86c1f400a429")
+	)
+	(wire
+		(pts
+			(xy 68.58 132.08) (xy 68.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f28569-191c-4ded-834d-bea469c32c38")
 	)
 	(wire
 		(pts
@@ -5026,6 +5118,26 @@
 			(type default)
 		)
 		(uuid "d5b3dcf1-e268-4cf0-96c2-5c2a5afa7baa")
+	)
+	(wire
+		(pts
+			(xy 68.58 121.92) (xy 73.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ee7f0a-a435-4a90-8b4d-f40babc75374")
+	)
+	(wire
+		(pts
+			(xy 68.58 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72d757f-a506-4041-8d1e-2e960e5e82b4")
 	)
 	(wire
 		(pts
@@ -5292,7 +5404,7 @@
 		(uuid 0b767ffd-541a-4f42-b6ef-814969e669fb)
 	)
 	(rectangle
-		(start 176.53 17.78)
+		(start 176.53 15.24)
 		(end 281.94 121.92)
 		(stroke
 			(width 0)
@@ -5374,6 +5486,18 @@
 			(type none)
 		)
 		(uuid 798e72ad-f4b4-43f4-864d-840bb8b575c5)
+	)
+	(rectangle
+		(start 148.59 16.51)
+		(end 171.45 49.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid abcb784e-e5be-4d14-8bee-d83fb18ca068)
 	)
 	(rectangle
 		(start 106.68 66.04)
@@ -5513,6 +5637,16 @@
 		)
 		(uuid "ad155d99-1f9a-42eb-a8a7-91060e5de9f4")
 	)
+	(text "Power Supply\n"
+		(exclude_from_sim no)
+		(at 160.02 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf58dd35-ec38-40e5-b979-d80b74ed52fd")
+	)
 	(text "UART for programming\n"
 		(exclude_from_sim no)
 		(at 85.598 78.232 0)
@@ -5575,6 +5709,17 @@
 			(justify left bottom)
 		)
 		(uuid "089c1d5f-adb9-443d-98dc-6a493f0da637")
+	)
+	(label "MTDO"
+		(at 88.9 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09cc43ba-9455-462f-b751-30537015989a")
 	)
 	(label "IO0"
 		(at 265.43 45.72 0)
@@ -5729,17 +5874,6 @@
 			(justify left bottom)
 		)
 		(uuid "37956264-f7b2-4217-bd2a-f9452b1f2dd3")
-	)
-	(label "MTDI"
-		(at 88.9 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3872fc09-a784-4b41-9bd6-c86bcbdb1248")
 	)
 	(label "Hall 4"
 		(at 43.18 189.23 0)
@@ -5939,6 +6073,17 @@
 		)
 		(uuid "7c75fee6-aaa1-4c23-ad71-ef24f5ac6abb")
 	)
+	(label "3V3"
+		(at 68.58 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "809bfbdb-4b47-4ef5-bc34-303925cfb40c")
+	)
 	(label "UART_PROGRAM_RTS"
 		(at 261.62 78.74 0)
 		(fields_autoplaced yes)
@@ -6027,17 +6172,6 @@
 		)
 		(uuid "99d02b3e-1638-4489-98ff-2cacb5e0b66e")
 	)
-	(label "MTDO"
-		(at 88.9 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99d571a3-1bce-401d-bf05-fb07af2a8ae2")
-	)
 	(label "UART_PROGRAM_TXD"
 		(at 76.2 92.71 0)
 		(fields_autoplaced yes)
@@ -6092,6 +6226,17 @@
 			(justify left bottom)
 		)
 		(uuid "b2192532-6081-4a42-8673-7046c579e44a")
+	)
+	(label "MTDI"
+		(at 88.9 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7bf127d-82c6-4cc5-8868-9199594b22da")
 	)
 	(label "PMS_PWM"
 		(at 144.78 96.52 0)
@@ -6688,7 +6833,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37a6b39c-1c2b-4e13-95ed-034b2e286a24")
 		(property "Reference" "J12"
 			(at 80.01 115.57 0)
@@ -6699,7 +6843,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Odd_Even"
-			(at 80.01 118.11 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,6 +7479,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c29935-6b40-4f0e-9b5c-4b3fe5cddd2a")
+		(property "Reference" "#PWR026"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a085615-1737-47d6-ac45-68d7a87ba26c")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 157.48 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e68371-aa2f-4450-bbbb-e86a1e9669c9")
+		(property "Reference" "J13"
+			(at 153.416 32.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 155.956 32.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03132b02-6b4f-4484-857c-5ab62b8907ec")
+		)
+		(pin "2"
+			(uuid "7cad7f7c-865b-4f88-89ac-48f5b29a80f7")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 187.96 58.42 0)
 		(unit 1)
@@ -7537,6 +7814,71 @@
 			(project "onyks-iot-monitor-weather-pcb"
 				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 162.56 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fe598fc-b805-49ae-b34e-073f60032d18")
+		(property "Reference" "#PWR029"
+			(at 162.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 158.242 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab6b8336-33b1-455e-913c-038cfdc45663")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8220,7 +8562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 72.39 171.45 0)
 			(effects
 				(font
@@ -10376,6 +10718,71 @@
 			(project "onyks-iot-monitor-weather-pcb"
 				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f04b4f41-bb35-4647-92af-e5ad76a71acf")
+		(property "Reference" "#PWR030"
+			(at 162.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1412116c-74e0-40fd-962d-5c2e4586ad22")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
