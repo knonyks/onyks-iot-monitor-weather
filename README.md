@@ -35,7 +35,7 @@ Dane zbierane są za pomocą odpowiednich czujników a następnie przetwarzane p
 
 - Do **Hallotronów** będą użyte drobne magnesy Neodymowe
 
-## Schematy blokowy
+## Schematy blokowe
 
 ###  Położenie elementów na płytce drukowanej :
 <img title="a title" alt="Alt text" src="img/SchematBlokowyLight.png">
