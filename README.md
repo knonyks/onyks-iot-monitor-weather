@@ -4,7 +4,7 @@
 
 
 ## Wstęp
-Tematem tego projektu jest stacja pogodowa, która zbiera informację odnośnie warunków atmosferycznych i na ich podstawie wysyła dane na oficjalną stronę, koła naukowego ONYKS. Stacja ta, mierzy takie wielkości jak poziom CO2, temperaturę, prędkość wiatru, wilgotność itp. (o tym dalej).
+Tematem tego projektu jest stacja pogodowa, która zbiera informację odnośnie warunków atmosferycznych i na ich podstawie wysyła dane na oficjalną stronę koła naukowego ONYKS. Stacja ta, mierzy takie wielkości jak poziom CO2, temperaturę, prędkość wiatru, wilgotność itp. (o tym dalej).
 
 <img title="a title" alt="Alt text" src="img/PCBDimensions.png">
 
