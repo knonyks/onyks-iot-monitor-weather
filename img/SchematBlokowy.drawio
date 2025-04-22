@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.2">
+  <diagram name="Page-1" id="Zty4vYiVhjPP58M-7W-9">
+    <mxGraphModel dx="1680" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-1" value="ESP32" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="275" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-6" value="&lt;div&gt;Porty na czujniki&lt;/div&gt;&lt;div&gt;&amp;nbsp;do pomiaru&lt;/div&gt;&lt;div&gt;kierunku wiatru&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="150" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-8" value="&lt;div&gt;Port na czujnik&lt;/div&gt;&lt;div&gt;&amp;nbsp;do pomiaru&lt;/div&gt;&lt;div&gt;prędkości wiatru&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-9" value="&lt;div&gt;Port na czujnik&lt;/div&gt;&lt;div&gt;&amp;nbsp;do pomiaru&lt;/div&gt;&lt;div&gt;ilości opadów&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-10" value="&lt;div&gt;Port na czujnik&lt;/div&gt;&lt;div&gt;&amp;nbsp;do pomiaru&lt;/div&gt;&lt;div&gt;temperatury i wilgotności&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="452.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-12" value="Interfejs JTAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="450" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-13" value="Czujnik ciiśnienia" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="377.5" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-14" value="&lt;div&gt;Port na czujnik&lt;/div&gt;&lt;div&gt;&amp;nbsp;do pomiaru&lt;/div&gt;&lt;div&gt;zawartości gazów szkodliwych w atmosferze&lt;/div&gt;" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="860" y="280" width="75" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-17" value="&lt;div&gt;Port na czujnik&lt;/div&gt;&lt;div&gt;&amp;nbsp;do pomiaru&lt;/div&gt;&lt;div&gt;C02&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="452.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-18" value="Interfejs programowania UART" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="400" width="200" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-19" value="Przycisk do Enable" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-20" value="Przycisk do IO2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-21" value="Dioda RGB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="110" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-22" value="Sekcja do programowania" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-23" value="&lt;div&gt;Port do zasilania&lt;/div&gt;&lt;div&gt;+5V&lt;/div&gt;" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-24" value="&lt;div&gt;Sekcja zasiilaniia oraz regulator liniowy z +5V na +3V3&lt;/div&gt;" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="130" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
