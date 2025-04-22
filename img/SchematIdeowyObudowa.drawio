@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.2">
+  <diagram name="Page-1" id="Zty4vYiVhjPP58M-7W-9">
+    <mxGraphModel dx="1428" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-34" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="680" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-26" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;PCB&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-30" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Wiatrowskaz&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="730" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-31" value="Czujnik CO2" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="750" y="376" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-32" value="Czujnik jakości powietrza" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="750" y="265" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-33" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Czujnik Temperatury we własnej obudowie&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="686" y="740" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;OBUDOWA STACJI&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-38" value="Hallotron" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="290" y="435" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-39" value="Hallotron" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="290" y="325" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-42" value="WAŁ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-44" value="WAŁ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-45" value="Koło wodne" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-46" value="Wiatrak" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-48" value="4 hallotrony" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="390" y="480" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-49" value="WAŁ" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="460" y="530" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bLHWUaT7IZ9Q-8d-Xwtv-51" value="Zasilanie" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="160" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
