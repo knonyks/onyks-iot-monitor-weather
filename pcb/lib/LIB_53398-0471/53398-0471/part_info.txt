@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=53398-0471
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.1
+Released=2016-05-16 09:09:54
+Downloaded=2025-06-23 14:51:13
+3D=Y
