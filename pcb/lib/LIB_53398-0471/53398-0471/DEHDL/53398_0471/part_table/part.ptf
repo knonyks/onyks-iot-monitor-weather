@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '53398_0471'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "53398-0471" (!) = "", "533980471", "Other", "538-53398-0471", "https://www.mouser.co.uk/ProductDetail/Molex/53398-0471?qs=yqtfsgZKt1SrARkpB7YBSw%3D%3D", "4 way straight SMT header,1.25mm pitch Molex PICOBLADE Series, Series Number 53398, 1.25mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 1A", "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf", "4 mm"
+END_PART
+
+END.
