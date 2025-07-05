@@ -618,7 +618,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -632,6 +632,18 @@
     [
       "c76e8e74-1f9a-4d6f-ac1c-451a63f003ec",
       "Root"
+    ],
+    [
+      "19a189ed-44a0-4af4-a859-5e4d3fe86a4b",
+      "Power Supply and ESP32"
+    ],
+    [
+      "aaa2d2d3-9f42-4388-a439-eab06cfbebc7",
+      "Sensors"
+    ],
+    [
+      "3b26de5c-64d8-42f9-83cc-93c7a8d50278",
+      "Programming and Debuging"
     ]
   ],
   "text_variables": {}
