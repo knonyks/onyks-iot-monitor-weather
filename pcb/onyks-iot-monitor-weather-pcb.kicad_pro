@@ -635,7 +635,7 @@
     ],
     [
       "19a189ed-44a0-4af4-a859-5e4d3fe86a4b",
-      "Power Supply and ESP32"
+      "ESP32"
     ],
     [
       "aaa2d2d3-9f42-4388-a439-eab06cfbebc7",
@@ -644,6 +644,10 @@
     [
       "3b26de5c-64d8-42f9-83cc-93c7a8d50278",
       "Programming and Debuging"
+    ],
+    [
+      "4049f0f5-bfbe-4f91-bfe5-144f66e42b37",
+      "PowerSupply"
     ]
   ],
   "text_variables": {}

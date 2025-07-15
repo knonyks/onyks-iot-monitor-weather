@@ -700,6 +700,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -805,6 +941,151 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1229,16 +1510,52 @@
 		)
 	)
 	(junction
+		(at 152.4 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "109daaf5-5f30-4485-94fd-ffafbffdf109")
+	)
+	(junction
 		(at 123.19 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37e7a109-04ec-415a-8c8d-be4f70c7bd54")
 	)
 	(junction
+		(at 77.47 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f9d3c57-2934-4fde-89d2-cc9327b6cd47")
+	)
+	(junction
+		(at 55.88 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811bc45d-86e0-42c2-a404-19b39165abf9")
+	)
+	(junction
+		(at 77.47 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a468e845-bd13-495b-87fc-6136c402c9e0")
+	)
+	(junction
 		(at 123.19 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3ee0eed-89d6-404d-ae16-7c916a70079f")
+	)
+	(junction
+		(at 55.88 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c42234c9-3542-4c21-bc99-aa98a81ae3ac")
+	)
+	(junction
+		(at 153.67 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d49b82bb-56d7-4647-8a29-bfdac1e5385f")
 	)
 	(junction
 		(at 138.43 113.03)
@@ -1254,6 +1571,36 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 44.45) (xy 55.88 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e19bb6-d67e-4de8-9b87-cc9b34a3afcc")
+	)
+	(wire
+		(pts
+			(xy 71.12 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b793117-9d63-48d9-9db5-4ab661ccdc25")
+	)
+	(wire
+		(pts
+			(xy 55.88 74.93) (xy 55.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba1b9ab-bb8b-4583-9c9e-96df43f6f4b5")
+	)
+	(wire
+		(pts
 			(xy 138.43 113.03) (xy 138.43 116.84)
 		)
 		(stroke
@@ -1264,6 +1611,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 74.93) (xy 77.47 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6d5696-0c85-4cd8-a99c-12e224bfc34b")
+	)
+	(wire
+		(pts
+			(xy 77.47 69.85) (xy 77.47 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230e09a4-4552-413b-a2e1-d202939386a4")
+	)
+	(wire
+		(pts
 			(xy 101.6 116.84) (xy 102.87 116.84)
 		)
 		(stroke
@@ -1271,6 +1638,26 @@
 			(type default)
 		)
 		(uuid "25d339e0-dd19-4adf-b0c4-7e472f7d27ea")
+	)
+	(wire
+		(pts
+			(xy 55.88 53.34) (xy 62.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e79b897-78de-429f-a04f-e7443c964171")
+	)
+	(wire
+		(pts
+			(xy 72.39 66.04) (xy 77.47 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32421fbb-c8a6-46c6-9e1c-71f759b324e3")
 	)
 	(wire
 		(pts
@@ -1334,6 +1721,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 53.34) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecf0b4d-d72e-4703-ab0d-15e4151c678f")
+	)
+	(wire
+		(pts
 			(xy 101.6 101.6) (xy 105.41 101.6)
 		)
 		(stroke
@@ -1361,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "55672265-70b8-4c35-940b-0d926b85e891")
+	)
+	(wire
+		(pts
+			(xy 55.88 66.04) (xy 55.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57058900-0933-46ec-bccc-a95059d5775c")
 	)
 	(wire
 		(pts
@@ -1394,6 +1801,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 66.04) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666016a3-6649-46c1-885b-8b73d4ca75a8")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 77.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68267417-5605-4efa-9223-eb9d242ff75c")
+	)
+	(wire
+		(pts
 			(xy 124.46 104.14) (xy 124.46 115.57)
 		)
 		(stroke
@@ -1401,6 +1828,16 @@
 			(type default)
 		)
 		(uuid "6914d7c2-9ff3-4f7f-86d9-810d9190b77d")
+	)
+	(wire
+		(pts
+			(xy 55.88 54.61) (xy 55.88 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7092ef4f-10cc-414b-9d1c-649670fcac0d")
 	)
 	(wire
 		(pts
@@ -1424,6 +1861,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 74.93) (xy 63.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f61c5a-f330-43ca-9c6b-58003306faaa")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868f11b6-5d9f-4144-baa0-44fb16576b61")
+	)
+	(wire
+		(pts
 			(xy 120.65 71.12) (xy 123.19 71.12)
 		)
 		(stroke
@@ -1431,6 +1888,16 @@
 			(type default)
 		)
 		(uuid "89a29c3c-cfee-43d7-b0d3-6ba4b9c4a827")
+	)
+	(wire
+		(pts
+			(xy 152.4 39.37) (xy 152.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a44d3b7-ae0a-4270-b22c-f1970d2cb180")
 	)
 	(wire
 		(pts
@@ -1451,6 +1918,16 @@
 			(type default)
 		)
 		(uuid "99c373d5-2097-4733-b860-27191443139b")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc2ab68-07e1-46da-884b-8d21003ba9b5")
 	)
 	(wire
 		(pts
@@ -1494,6 +1971,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 69.85) (xy 80.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac140b2-b171-4b11-9fa7-2a900eb6c78b")
+	)
+	(wire
+		(pts
 			(xy 120.65 53.34) (xy 123.19 53.34)
 		)
 		(stroke
@@ -1501,6 +1988,16 @@
 			(type default)
 		)
 		(uuid "beb30fdb-fe72-4529-8353-b91853bd7b40")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 60.96 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf711f49-81ea-4397-a877-a43cf99714bb")
 	)
 	(wire
 		(pts
@@ -1574,7 +2071,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 76.2) (xy 154.94 76.2)
+			(xy 152.4 46.99) (xy 149.86 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0341067-c744-4f28-8573-83facd240c57")
+	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 153.67 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 46.99) (xy 149.86 46.99)
+			(xy 154.94 46.99) (xy 152.4 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1601,6 +2108,16 @@
 			(type default)
 		)
 		(uuid "e7ad8034-2ef3-4aaf-8f55-400b652cb303")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.34) (xy 77.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7fbb6bd-5eb5-4d78-af30-510481aa7988")
 	)
 	(wire
 		(pts
@@ -1624,6 +2141,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 48.26) (xy 82.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ac1e63-674f-46ba-8c59-9e00a93af42a")
+	)
+	(wire
+		(pts
 			(xy 123.19 63.5) (xy 123.19 71.12)
 		)
 		(stroke
@@ -1634,6 +2161,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 66.04) (xy 77.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa558d9d-4a1e-427d-8987-af3eaba42397")
+	)
+	(wire
+		(pts
 			(xy 101.6 113.03) (xy 102.87 113.03)
 		)
 		(stroke
@@ -1641,6 +2178,18 @@
 			(type default)
 		)
 		(uuid "fe4fbc4d-5d2f-400c-8b40-636df8447825")
+	)
+	(rectangle
+		(start 49.53 29.21)
+		(end 87.63 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2cb1c5f7-2518-49ab-89e1-b00258b21268)
 	)
 	(rectangle
 		(start 134.62 92.71)
@@ -1690,6 +2239,18 @@
 		)
 		(uuid "8d3597d5-0ade-4fc7-b152-cd79dc59abe6")
 	)
+	(text "Buttons for RESET \nand programming\n"
+		(exclude_from_sim no)
+		(at 69.342 33.528 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "b416598d-440d-46cc-8a60-a32853a426e8")
+	)
 	(text "For programming\n"
 		(exclude_from_sim no)
 		(at 129.54 47.752 0)
@@ -1714,6 +2275,17 @@
 		)
 		(uuid "dfdac509-762a-4598-bb89-a566eee4ce5d")
 	)
+	(label "EN"
+		(at 152.4 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02da7db6-45f4-4a2c-86d1-12bd988e8a4e")
+	)
 	(label "UART_PROGRAM_DTR"
 		(at 102.87 113.03 0)
 		(fields_autoplaced yes)
@@ -1724,6 +2296,28 @@
 			(justify left bottom)
 		)
 		(uuid "099c88e7-d927-483a-b9eb-e723607beb5b")
+	)
+	(label "EN"
+		(at 80.01 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15d8796d-a9df-4664-835b-35d6d77f6591")
+	)
+	(label "IO0"
+		(at 153.67 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5185b150-e95f-421a-a6be-d6b2adaa9ca6")
 	)
 	(label "UART_PROGRAM_RTS"
 		(at 102.87 116.84 0)
@@ -1757,6 +2351,17 @@
 			(justify right bottom)
 		)
 		(uuid "8cfb6821-065a-4a6e-bfcd-2b20105a26cd")
+	)
+	(label "IO0"
+		(at 82.55 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca48e224-6a5c-4aa5-8754-43145ef24136")
 	)
 	(hierarchical_label "UART_PROGRAM_RXD"
 		(shape input)
@@ -2212,6 +2817,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 67.31 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4adea254-e646-4c91-aeab-06d2479c4f07")
+		(property "Reference" "C2"
+			(at 67.31 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF/4VDC"
+			(at 67.31 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 71.12 73.9648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c397d49b-928a-4163-bec5-af6cbb768f69")
+		)
+		(pin "1"
+			(uuid "4354cbc5-7e97-4df4-8e4a-cff2d9619319")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec/3b26de5c-64d8-42f9-83cc-93c7a8d50278"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 96.52 106.68 0)
 		(unit 1)
@@ -2287,6 +2959,125 @@
 			(project "onyks-iot-monitor-weather-pcb"
 				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec/3b26de5c-64d8-42f9-83cc-93c7a8d50278"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a102cb1-331a-4fab-8216-d4532cd8d1af")
+		(property "Reference" "S3"
+			(at 69.85 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTS636_SK25F_SMTR_LFS"
+			(at 54.864 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1bmoje:PTS636SK25FSMTRLFS"
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.7"
+			(at 85.09 439.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS636SK25FSMTRL"
+			(at 85.09 539.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SK25F-SMTR-LFS?qs=vLWxofP3U2zO9PvdsA2GhQ%3D%3D"
+			(at 85.09 639.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 85.09 739.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS636 SK25F SMTR LFS"
+			(at 85.09 839.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11d7dd10-812b-487b-b395-ceeea2f4a720")
+		)
+		(pin "1"
+			(uuid "8893d169-950c-4a47-89d0-a8b1dcca51f9")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec/3b26de5c-64d8-42f9-83cc-93c7a8d50278"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -2576,6 +3367,257 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9615b50a-0b5e-42d2-b22c-217a16881a38")
+		(property "Reference" "#PWR02"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.198 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26aa94b7-12b6-46a0-b166-a6d1d4c4a585")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec/3b26de5c-64d8-42f9-83cc-93c7a8d50278"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b35709f6-d979-4ff2-bd4c-bf17b007ae7c")
+		(property "Reference" "C1"
+			(at 66.294 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF/4VDC"
+			(at 66.294 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 69.85 52.3748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5736d9c0-f4b0-47a6-ad3a-eee6e24e9613")
+		)
+		(pin "1"
+			(uuid "94b1d741-4974-41d1-8a80-1c6f7bae7463")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec/3b26de5c-64d8-42f9-83cc-93c7a8d50278"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 67.31 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be9f6511-f014-40f2-9517-2e3d97a76e68")
+		(property "Reference" "S4"
+			(at 71.628 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTS636_SK25F_SMTR_LFS"
+			(at 56.388 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1bmoje:PTS636SK25FSMTRLFS"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.7"
+			(at 86.36 460.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS636SK25FSMTRL"
+			(at 86.36 560.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SK25F-SMTR-LFS?qs=vLWxofP3U2zO9PvdsA2GhQ%3D%3D"
+			(at 86.36 660.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 86.36 760.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS636 SK25F SMTR LFS"
+			(at 86.36 860.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dda2751d-0f56-4789-922d-81fc26e7720c")
+		)
+		(pin "1"
+			(uuid "7f0bddef-bd0a-4e48-9c0f-ae9fbd9c57e1")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec/3b26de5c-64d8-42f9-83cc-93c7a8d50278"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 138.43 99.06 0)
 		(unit 1)
@@ -2635,6 +3677,71 @@
 			(project "onyks-iot-monitor-weather-pcb"
 				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec/3b26de5c-64d8-42f9-83cc-93c7a8d50278"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e083568c-1501-43d6-be48-86ab0898e584")
+		(property "Reference" "#PWR01"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.452 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81defa3d-91a7-42f6-a4ef-299ecf52fc0f")
+		)
+		(instances
+			(project "onyks-iot-monitor-weather-pcb"
+				(path "/c76e8e74-1f9a-4d6f-ac1c-451a63f003ec/3b26de5c-64d8-42f9-83cc-93c7a8d50278"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
