@@ -6,7 +6,7 @@
 ## Wstęp
 Tematem tego projektu jest stacja pogodowa, która zbiera informację odnośnie warunków atmosferycznych i na ich podstawie wysyła dane na oficjalną stronę koła naukowego ONYKS. Stacja ta, mierzy takie wielkości jak poziom CO2, temperaturę, prędkość wiatru, wilgotność itp. (o tym dalej).
 
-<img title="a title" alt="Alt text" src="img/PCBDmensions.png">
+<img title="a title" alt="Alt text" src="img/PCBDimensions.png">
 
 ## Założenia - jak to ma działać
 Dane zbierane są za pomocą odpowiednich czujników a następnie przetwarzane przez mikrokontroler ESP32 - w tym projekcie użyto ESP32-WROOM-32D. Po przetworzeniu dane będą wysyłane na serwer przy użyciu WIFI, a następnie wyświetlane w odpowiedniej rubryce na głównej stronie koła naukowego ONYKS. Planowany rozmiar PCB ***100 mm x 82 mm***.
