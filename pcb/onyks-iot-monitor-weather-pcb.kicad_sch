@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c76e8e74-1f9a-4d6f-ac1c-451a63f003ec")
 	(paper "A4")
 	(title_block
@@ -144,6 +144,10 @@
 	(sheet
 		(at 66.04 68.58)
 		(size 69.85 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -173,133 +177,133 @@
 		)
 		(pin "IO4" input
 			(at 135.89 78.74 0)
+			(uuid "74c3d30c-2417-443b-99cd-b675791e1331")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "74c3d30c-2417-443b-99cd-b675791e1331")
 		)
 		(pin "IO5" input
 			(at 135.89 90.17 0)
+			(uuid "e05d6306-8343-4cdd-8518-afc99622b4c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e05d6306-8343-4cdd-8518-afc99622b4c7")
 		)
 		(pin "SCK" output
 			(at 135.89 114.3 0)
+			(uuid "b99cf648-4c6c-44e3-89fa-b8edd67ac045")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b99cf648-4c6c-44e3-89fa-b8edd67ac045")
 		)
 		(pin "SDI" output
 			(at 135.89 111.76 0)
+			(uuid "553a60b0-9d87-4b62-ac87-8cc14c8cc380")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "553a60b0-9d87-4b62-ac87-8cc14c8cc380")
 		)
 		(pin "IO32" input
 			(at 135.89 101.6 0)
+			(uuid "ff590e23-16f6-4c73-a8a4-e114d184ffd9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ff590e23-16f6-4c73-a8a4-e114d184ffd9")
 		)
 		(pin "IO25" input
 			(at 135.89 93.98 0)
+			(uuid "201f5d2f-87dd-4024-b937-e14c29ff1408")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "201f5d2f-87dd-4024-b937-e14c29ff1408")
 		)
 		(pin "IO22" input
 			(at 135.89 85.09 0)
+			(uuid "3178c6c5-3abe-41da-97eb-3d97cccbe990")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3178c6c5-3abe-41da-97eb-3d97cccbe990")
 		)
 		(pin "IO26" input
 			(at 135.89 96.52 0)
+			(uuid "8f863c4d-4f2d-4d9a-b6d2-8ddd962f5871")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8f863c4d-4f2d-4d9a-b6d2-8ddd962f5871")
 		)
 		(pin "IO27" input
 			(at 135.89 99.06 0)
+			(uuid "796ae34b-6968-4d32-9b22-0effdb59734c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "796ae34b-6968-4d32-9b22-0effdb59734c")
 		)
 		(pin "SDO" input
 			(at 135.89 116.84 0)
+			(uuid "3b838f4e-4482-40a7-a1c1-5a5215a650f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3b838f4e-4482-40a7-a1c1-5a5215a650f7")
 		)
 		(pin "IO33" input
 			(at 135.89 106.68 0)
+			(uuid "7eccc008-cbb9-400b-8cb3-7e84f2a5a723")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7eccc008-cbb9-400b-8cb3-7e84f2a5a723")
 		)
 		(pin "IO34" input
 			(at 135.89 104.14 0)
+			(uuid "aed53fc5-4732-4a38-b2d9-cb3f2d1868c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aed53fc5-4732-4a38-b2d9-cb3f2d1868c8")
 		)
 		(pin "IO35" input
 			(at 135.89 82.55 0)
+			(uuid "7c77437b-62a5-432d-9be8-07be056023ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7c77437b-62a5-432d-9be8-07be056023ee")
 		)
 		(instances
 			(project "onyks-iot-monitor-weather-pcb"
@@ -312,6 +316,10 @@
 	(sheet
 		(at 48.26 31.75)
 		(size 45.72 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -350,6 +358,10 @@
 	(sheet
 		(at 175.26 68.58)
 		(size 36.83 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -379,133 +391,133 @@
 		)
 		(pin "DHT22_OUT" output
 			(at 175.26 78.74 180)
+			(uuid "ee56d459-31b0-47f1-bfa7-f00dc41dee10")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ee56d459-31b0-47f1-bfa7-f00dc41dee10")
 		)
 		(pin "MQ135_AOUT" output
 			(at 175.26 82.55 180)
+			(uuid "07b950e3-28e2-428e-9913-b8ab6d34a37d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "07b950e3-28e2-428e-9913-b8ab6d34a37d")
 		)
 		(pin "MQ135_DOUT" output
 			(at 175.26 85.09 180)
+			(uuid "dea5fca4-90d7-4d6d-a5ac-17b75e3592d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dea5fca4-90d7-4d6d-a5ac-17b75e3592d2")
 		)
 		(pin "SEN0219" output
 			(at 175.26 90.17 180)
+			(uuid "2c295ece-225e-4a49-822e-2d60aaaf736e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2c295ece-225e-4a49-822e-2d60aaaf736e")
 		)
 		(pin "Hall_1" output
 			(at 175.26 93.98 180)
+			(uuid "c68b19ef-df3e-43b7-a01f-3a3590edf857")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c68b19ef-df3e-43b7-a01f-3a3590edf857")
 		)
 		(pin "Hall_5" output
 			(at 175.26 104.14 180)
+			(uuid "27e103fd-28a3-4c48-8cc8-a5bd220c4ccd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "27e103fd-28a3-4c48-8cc8-a5bd220c4ccd")
 		)
 		(pin "Hall_4" output
 			(at 175.26 101.6 180)
+			(uuid "9cdaa1a1-5974-46dc-9a72-4fb54e1c3c2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9cdaa1a1-5974-46dc-9a72-4fb54e1c3c2f")
 		)
 		(pin "Hall_6" output
 			(at 175.26 106.68 180)
+			(uuid "9a4d2034-a45c-468a-8903-b34f3172d503")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9a4d2034-a45c-468a-8903-b34f3172d503")
 		)
 		(pin "BMP_SDI" input
 			(at 175.26 111.76 180)
+			(uuid "3d67dbfd-add6-476f-be41-13fe1f0633ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3d67dbfd-add6-476f-be41-13fe1f0633ac")
 		)
 		(pin "BMP_SCK" input
 			(at 175.26 114.3 180)
+			(uuid "8d66cac1-c00e-4a80-aff7-627012a2b33c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d66cac1-c00e-4a80-aff7-627012a2b33c")
 		)
 		(pin "BMP_SDO" output
 			(at 175.26 116.84 180)
+			(uuid "ec7fbd78-6683-4d42-a98d-5c252485239a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec7fbd78-6683-4d42-a98d-5c252485239a")
 		)
 		(pin "Hall_3" output
 			(at 175.26 99.06 180)
+			(uuid "1a2a738e-9552-41d6-a91a-3e7ee449669b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1a2a738e-9552-41d6-a91a-3e7ee449669b")
 		)
 		(pin "Hall_2" output
 			(at 175.26 96.52 180)
+			(uuid "218e11e5-2717-452b-ab8b-ad81eb23592f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "218e11e5-2717-452b-ab8b-ad81eb23592f")
 		)
 		(instances
 			(project "onyks-iot-monitor-weather-pcb"
@@ -520,4 +532,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
