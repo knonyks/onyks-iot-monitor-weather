@@ -1256,7 +1256,7 @@
 	)
 	(text "INFRARED CO2 sensor\nSEN0219\nOutput: 0.4 - 2 V"
 		(exclude_from_sim no)
-		(at 225.552 115.824 0)
+		(at 225.552 115.316 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1540,6 +1540,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 123.19) (xy 224.79 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25010347-30f4-493d-aa12-4622ed9c6004")
+	)
+	(wire
+		(pts
 			(xy 86.36 176.53) (xy 91.44 176.53)
 		)
 		(stroke
@@ -1577,6 +1587,16 @@
 			(type default)
 		)
 		(uuid "31a95b87-6573-4370-b3e6-22b093252773")
+	)
+	(wire
+		(pts
+			(xy 181.61 129.54) (xy 181.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e94b37-f4a5-4481-a514-6e50e55e3612")
 	)
 	(wire
 		(pts
@@ -1670,16 +1690,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 128.27) (xy 167.64 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bae79ae-427d-4b59-9b3e-299b94e16c0a")
-	)
-	(wire
-		(pts
 			(xy 111.76 50.8) (xy 113.03 50.8)
 		)
 		(stroke
@@ -1690,16 +1700,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 130.81) (xy 167.64 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50bbec2a-d7cf-4150-b532-f466df95eb43")
-	)
-	(wire
-		(pts
 			(xy 77.47 106.68) (xy 77.47 102.87)
 		)
 		(stroke
@@ -1707,16 +1707,6 @@
 			(type default)
 		)
 		(uuid "5302ef94-d8be-4e5c-b6f1-7ca96c58ef26")
-	)
-	(wire
-		(pts
-			(xy 219.71 121.92) (xy 222.25 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a03016-96b9-4b13-abc1-37ccb444d6ca")
 	)
 	(wire
 		(pts
@@ -1847,6 +1837,16 @@
 			(type default)
 		)
 		(uuid "71031d21-f0c5-4a70-a7f4-b1f13bd12b98")
+	)
+	(wire
+		(pts
+			(xy 181.61 128.27) (xy 163.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7287d7bb-267e-487b-97d1-5aafa43f4854")
 	)
 	(wire
 		(pts
@@ -2140,6 +2140,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 125.73) (xy 234.95 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d218968b-0aa2-4888-9e3b-5863179d8282")
+	)
+	(wire
+		(pts
+			(xy 163.83 130.81) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88a3ebd-fdae-4a7b-88f6-12f65eb19751")
+	)
+	(wire
+		(pts
 			(xy 73.66 160.02) (xy 73.66 179.07)
 		)
 		(stroke
@@ -2240,16 +2260,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 124.46) (xy 237.49 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5fca54-b6e2-4452-ae71-d75ca1eb02fa")
-	)
-	(wire
-		(pts
 			(xy 63.5 119.38) (xy 63.5 132.08)
 		)
 		(stroke
@@ -2290,16 +2300,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 127) (xy 220.98 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa247eb9-d96d-4fdf-8240-3a4bc443eaca")
-	)
-	(wire
-		(pts
 			(xy 64.77 48.26) (xy 83.82 48.26)
 		)
 		(stroke
@@ -2307,6 +2307,16 @@
 			(type default)
 		)
 		(uuid "fada7ab0-43c4-41b4-b8ca-80af25b3dad1")
+	)
+	(wire
+		(pts
+			(xy 219.71 128.27) (xy 222.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea9313e-bc7b-47d1-af52-2c9478f9048b")
 	)
 	(hierarchical_label "MQ135_AOUT"
 		(shape output)
@@ -2398,7 +2408,7 @@
 	)
 	(hierarchical_label "DHT22_OUT"
 		(shape output)
-		(at 167.64 128.27 0)
+		(at 167.64 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2431,7 +2441,7 @@
 	)
 	(hierarchical_label "SEN0219"
 		(shape output)
-		(at 222.25 121.92 0)
+		(at 222.25 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2453,7 +2463,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 214.63 124.46 0)
+		(at 214.63 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2461,7 +2471,7 @@
 		(dnp no)
 		(uuid "004daec0-b981-483b-b47c-4e1e2a6b3201")
 		(property "Reference" "J9"
-			(at 231.902 131.064 0)
+			(at 231.902 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,15 +2479,15 @@
 			)
 		)
 		(property "Value" "53398-0371"
-			(at 232.41 133.35 0)
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "1bmoje:53398-0371"
-			(at 214.63 124.46 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 124.46 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2505,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 214.63 124.46 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2514,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 231.14 519.38 0)
+			(at 231.14 520.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2524,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 231.14 619.38 0)
+			(at 231.14 620.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2534,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 231.14 719.38 0)
+			(at 231.14 720.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2544,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 231.14 819.38 0)
+			(at 231.14 820.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2554,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "53398-0371"
-			(at 231.14 919.38 0)
+			(at 231.14 920.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2847,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 237.49 124.46 0)
+		(at 224.79 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2845,7 +2855,7 @@
 		(dnp no)
 		(uuid "1a277709-5ce6-4d83-87be-6816888dbe04")
 		(property "Reference" "#PWR014"
-			(at 237.49 128.27 0)
+			(at 224.79 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2864,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 232.41 122.682 0)
+			(at 219.71 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 124.46 0)
+			(at 224.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 124.46 0)
+			(at 224.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 237.49 124.46 0)
+			(at 224.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +2937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1bmoje:533980471- MOLEXx4"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -3109,7 +3119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 127 0)
+		(at 234.95 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3118,7 +3128,7 @@
 		(fields_autoplaced yes)
 		(uuid "35c3c8c1-0534-4999-8c63-1896c57bb303")
 		(property "Reference" "#PWR013"
-			(at 220.98 133.35 0)
+			(at 234.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3137,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 128.2699 0)
+			(at 237.49 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 127 0)
+			(at 234.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +3155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 127 0)
+			(at 234.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 127 0)
+			(at 234.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "53398-0371"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 59.69 48.26 0)
 			(effects
 				(font
@@ -3437,7 +3447,7 @@
 		(dnp no)
 		(uuid "4b247101-0701-48aa-9926-99344aad804a")
 		(property "Reference" "J8"
-			(at 185.928 130.81 0)
+			(at 187.452 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,14 +3455,14 @@
 			)
 		)
 		(property "Value" "53398-0371"
-			(at 186.182 132.842 0)
+			(at 187.706 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "1bmoje:53398-0371"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 158.75 128.27 0)
 			(effects
 				(font
@@ -3987,7 +3997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1bmoje:53398-0371"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 106.68 127 0)
 			(effects
 				(font
@@ -4084,7 +4094,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 130.81 0)
+		(at 181.61 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4092,7 +4102,7 @@
 		(dnp no)
 		(uuid "68f881da-9778-44f8-8fa0-a9b2717eb3ce")
 		(property "Reference" "#PWR012"
-			(at 167.64 137.16 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.958 132.588 0)
+			(at 185.928 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 130.81 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 130.81 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 130.81 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1bmoje:53398-0371"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -4624,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1bmoje:53398-0371"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -4878,7 +4888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1bmoje:53398-0371"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 106.68 80.01 0)
 			(effects
 				(font
@@ -5395,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1bmoje:53398-0371"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 106.68 111.76 0)
 			(effects
 				(font

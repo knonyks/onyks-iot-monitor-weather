@@ -285,9 +285,9 @@
 				(justify right)
 			)
 		)
-		(pin "IO34" input
-			(at 135.89 104.14 0)
-			(uuid "aed53fc5-4732-4a38-b2d9-cb3f2d1868c8")
+		(pin "IO2" input
+			(at 135.89 82.55 0)
+			(uuid "8e9bad26-068e-4930-9226-8c2cc8919320")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,8 +296,8 @@
 			)
 		)
 		(pin "IO35" input
-			(at 135.89 82.55 0)
-			(uuid "7c77437b-62a5-432d-9be8-07be056023ee")
+			(at 135.89 104.14 0)
+			(uuid "9ae5cc48-8add-42b1-8eb5-0e66936b4c5e")
 			(effects
 				(font
 					(size 1.27 1.27)
