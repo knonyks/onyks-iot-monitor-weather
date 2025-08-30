@@ -2954,6 +2954,10 @@
 		(uuid "6a8070d5-b589-4fff-92c9-4313f27a6dea")
 	)
 	(no_connect
+		(at 198.12 90.17)
+		(uuid "8cf4777a-1b48-4e7e-9f0d-814c08f22c1b")
+	)
+	(no_connect
 		(at 157.48 100.33)
 		(uuid "c189cdd0-8fb1-46bd-abb1-45fc7296d320")
 	)
@@ -4309,7 +4313,7 @@
 		)
 		(uuid "30471298-c6eb-4146-b4a5-a6763ff63f1c")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "SCL"
 		(shape output)
 		(at 194.31 92.71 0)
 		(effects
@@ -4319,17 +4323,6 @@
 			(justify left)
 		)
 		(uuid "389d868a-a01d-4946-9c84-de3f49e79607")
-	)
-	(hierarchical_label "SDI"
-		(shape output)
-		(at 198.12 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54d8babf-ca68-4d4a-8272-8ee49f4886ec")
 	)
 	(hierarchical_label "IO5"
 		(shape input)
@@ -4375,7 +4368,7 @@
 		)
 		(uuid "a5293dea-a2d9-4da6-9377-db89882ae6bd")
 	)
-	(hierarchical_label "SDO"
+	(hierarchical_label "SDA"
 		(shape input)
 		(at 195.58 95.25 0)
 		(effects
