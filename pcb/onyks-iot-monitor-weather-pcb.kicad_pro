@@ -506,7 +506,7 @@
       "plot": "../fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "onyks-iot-monitor-weather-pcb.step",
       "svg": "",
       "vrml": ""
     },
