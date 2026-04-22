@@ -1,0 +1,6 @@
+pcb/_autosave-onyks-iot-monitor-weather-pcb.kicad_pcb
+pcb/fp-info-cache
+pcb/*.lck
+pcb/*.kicad_prl
+pcb/onyks-iot-monitor-weather-pcb-backups/*
+pcb/onyks-iot-monitor-weather-pcb-backups
